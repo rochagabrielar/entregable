@@ -20,20 +20,20 @@ private $intAntiguedad;
       $this->strAntiguedad= CalculaAntiguedad($fechaIngreso);
     }
 // getters
-      public function getCodigo()
-        {
-          return $this->$intCodigo_Prof;
-        }
+  public function getCodigo()
+  {
+    return $this->$intCodigo_Prof;
+  }
 
-     public function getNombre()
-       {
-         return $this->strNombreProf;
-       }
+  public function getNombre()
+  {
+   return $this->strNombreProf;
+  }
 
-     public function getApellido()
-       {
-         return $this->strApellidoProf;
-       }
+  public function getApellido()
+  {
+   return $this->strApellidoProf;
+  }
 
 // setters
     public function setCodigo(integer $valor)
@@ -45,11 +45,11 @@ private $intAntiguedad;
         $this->strNombreProf= $valor;
       }
 
-      public function setApellido(string $valor)
+    public function setApellido(string $valor)
   		{
   			$this->strApellidoProf = $valor;
   		}
 
 
 
- ?>
+?>
